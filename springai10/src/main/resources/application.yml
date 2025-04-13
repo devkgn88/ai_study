@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: springai10
+
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+
+    vectorstore:
+      pinecone:
+        api-key: 키
+        environment: us-east-1
+        index-name: my-index
